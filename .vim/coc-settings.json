@@ -1,0 +1,22 @@
+{
+   "languageserver": {
+      "ccls": {
+         "command": "<CCLS-COMMAND>",
+         "filetypes": ["c", "cpp", "cuda", "objc", "objcpp"],
+         "rootPatterns": [".ccls-root", "compile_commands.json", ".git"],
+         "initializationOptions": {
+            "cache": {
+            "directory": "~/.cache/ccls"
+            }
+         },
+         "index": {
+            "threads": 2
+         }
+      }
+   },
+   "python" : {
+      "formatting": {
+         "provider": "yapf"
+      }
+   }
+}
